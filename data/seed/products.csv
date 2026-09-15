@@ -1,0 +1,9 @@
+site,sku,category,title_en,title_local,unit,moq,price_minor,cny_ref_price,fx_rate,description,specs_json
+in,in-hk-001,Home & Kitchen,Non-stick Cookware Set (5 pcs),,set,10,111475,750,0.343,"Factory-direct 5-piece non-stick cookware set with induction-safe bases. FOB China, consolidated shipping.",material=Aluminium + non-stick coating|pieces=5|induction=yes
+in,in-hk-002,Home & Kitchen,Stainless Steel Knife Set (8 pcs),,set,20,64827,420,0.343,"8-piece stainless kitchen knife set with hardened blades. Export packaging per carton.",material=Stainless steel|pieces=8|handle=PP
+in,in-hk-003,Home & Kitchen,Food Storage Container Set (12 pcs),,set,50,39445,260,0.343,"12-piece airtight food storage containers, stackable, BPA-free.",material=PP|pieces=12|capacity=500-2200 ml
+in,in-hk-004,Home & Kitchen,Stainless Electric Kettle 1.8L,,pcs,20,78890,530,0.343,"1.8L stainless steel electric kettle with auto shut-off. 220V.",volume=1.8 L|power=1500 W|voltage=220V
+in,in-tl-001,Tools & Hardware,Cordless Drill 12V Kit (2 batteries),,pcs,10,236670,1580,0.343,"12V cordless drill with 2 batteries, charger and accessory bits.",voltage=12 V|batteries=2|chuck=10 mm
+in,in-tl-002,Tools & Hardware,Adjustable Wrench Set (6 pcs),,set,25,84035,560,0.343,"Chrome-vanadium adjustable wrench set with comfort grip.",material=CR-V steel|pieces=6|size=6-12 inch
+in,in-tl-003,Tools & Hardware,Home Tool Kit 100 pcs with Toolbox,,set,8,425320,2850,0.343,"100-piece household tool kit in portable toolbox, ideal for hardware retail.",pieces=100|toolbox=yes
+in,in-tl-004,Tools & Hardware,Utility Knife Blades (50-pack),,pack,100,13034,88,0.343,"Standard 18mm utility knife blades, 50 per pack, retail-ready.",type=18mm trapezoid|per pack=50

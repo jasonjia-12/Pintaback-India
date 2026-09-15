@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgStudioLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgMarble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgDarkStudio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Material Gradients -->
+    <linearGradient id="nonStickGranite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="stainlessSteel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="75%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="copperBronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="woodGrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="dewaltYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="tealPine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d5c75"/>
+      <stop offset="100%" stop-color="#093d4e"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0284c7" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Surface Background -->
+  <rect width="800" height="600" fill="url(#bgDarkStudio)"/>
+  <ellipse cx="400" cy="460" rx="360" ry="80" fill="#000000" fill-opacity="0.06" filter="url(#softShadow)"/>
+
+  <!-- Product Graphics Scene -->
+  
+    <g filter="url(#softShadow)" transform="translate(180, 80)">
+      <!-- Main Drill Body -->
+      <!-- Motor Housing -->
+      <rect x="80" y="60" width="240" height="90" rx="20" fill="url(#dewaltYellow)"/>
+      <rect x="260" y="70" width="100" height="70" rx="10" fill="#1e293b"/>
+      <!-- Chuck -->
+      <rect x="360" y="80" width="60" height="50" rx="8" fill="url(#stainlessSteel)"/>
+
+      <!-- Handle -->
+      <path d="M 140 140 L 100 320 L 170 320 L 210 140 Z" fill="#1e293b"/>
+      <path d="M 150 150 L 120 310 L 160 310 L 190 150 Z" fill="url(#dewaltYellow)"/>
+
+      <!-- Trigger -->
+      <rect x="185" y="170" width="25" height="35" rx="8" fill="#ef4444"/>
+
+      <!-- Battery Pack Attached -->
+      <rect x="70" y="320" width="140" height="70" rx="16" fill="#0f172a" stroke="url(#dewaltYellow)" stroke-width="4"/>
+
+      <!-- Spare Battery 2 -->
+      <g transform="translate(260, 280)">
+        <rect x="0" y="0" width="140" height="70" rx="16" fill="#0f172a" stroke="url(#dewaltYellow)" stroke-width="4"/>
+        <rect x="20" y="-15" width="40" height="15" rx="4" fill="#334155"/>
+        <text x="70" y="42" text-anchor="middle" fill="#facc15" font-family="system-ui" font-size="14" font-weight="900">12V LITHIUM</text>
+      </g>
+    </g>
+  
+
+  <!-- Floating Badge Header -->
+  <g transform="translate(30, 30)">
+    <rect width="268" height="34" rx="17" fill="url(#tealPine)"/>
+    <text x="134" y="22" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="1">DIRECT SOURCING FROM CHINA</text>
+  </g>
+
+  <!-- Specs Badges Footer Overlay -->
+  <g transform="translate(30, 520)">
+    <rect width="740" height="50" rx="14" fill="#ffffff" fill-opacity="0.9" stroke="#e2e8f0" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="20" y="31" fill="#0f172a" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Cordless Drill 12V Kit (2 batteries)</text>
+    <text x="720" y="31" text-anchor="end" fill="#0284c7" font-family="system-ui, sans-serif" font-size="14" font-weight="700">SKU: in-tl-001</text>
+  </g>
+</svg>

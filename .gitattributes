@@ -1,0 +1,22 @@
+* text=auto eol=lf
+
+*.ts   text
+*.tsx  text
+*.js   text
+*.mjs  text
+*.json text
+*.css  text
+*.md   text
+*.sql  text
+*.csv  text
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+
+package-lock.json linguist-generated=true -diff

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgStudioLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgMarble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgDarkStudio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Material Gradients -->
+    <linearGradient id="nonStickGranite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="stainlessSteel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="75%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="copperBronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="woodGrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="dewaltYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="tealPine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d5c75"/>
+      <stop offset="100%" stop-color="#093d4e"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0284c7" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Surface Background -->
+  <rect width="800" height="600" fill="url(#bgStudioLight)"/>
+  <ellipse cx="400" cy="460" rx="360" ry="80" fill="#000000" fill-opacity="0.06" filter="url(#softShadow)"/>
+
+  <!-- Product Graphics Scene -->
+  
+    <g filter="url(#softShadow)" transform="translate(180, 100)">
+      <!-- Large Container Base -->
+      <rect x="60" y="200" width="320" height="180" rx="24" fill="#ffffff" fill-opacity="0.6" stroke="#cbd5e1" stroke-width="4"/>
+      <rect x="45" y="170" width="350" height="40" rx="14" fill="#0284c7"/>
+      <rect x="35" y="180" width="20" height="20" rx="6" fill="#0369a1"/>
+      <rect x="395" y="180" width="20" height="20" rx="6" fill="#0369a1"/>
+      <!-- Medium Container Stacked -->
+      <rect x="100" y="80" width="240" height="110" rx="18" fill="#ffffff" fill-opacity="0.6" stroke="#cbd5e1" stroke-width="4"/>
+      <rect x="85" y="55" width="270" height="32" rx="12" fill="#10b981"/>
+      <rect x="75" y="63" width="16" height="16" rx="5" fill="#047857"/>
+      <rect x="349" y="63" width="16" height="16" rx="5" fill="#047857"/>
+      <!-- Small Container Stacked Top -->
+      <rect x="140" y="-10" width="160" height="70" rx="14" fill="#ffffff" fill-opacity="0.6" stroke="#cbd5e1" stroke-width="4"/>
+      <rect x="130" y="-30" width="180" height="26" rx="10" fill="#f59e0b"/>
+      <!-- Fresh Food Content Visualization -->
+      <circle cx="160" cy="280" r="30" fill="#ef4444" opacity="0.8"/>
+      <circle cx="220" cy="290" r="35" fill="#22c55e" opacity="0.8"/>
+      <circle cx="280" cy="270" r="28" fill="#eab308" opacity="0.8"/>
+    </g>
+  
+
+  <!-- Floating Badge Header -->
+  <g transform="translate(30, 30)">
+    <rect width="268" height="34" rx="17" fill="url(#tealPine)"/>
+    <text x="134" y="22" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="1">DIRECT SOURCING FROM CHINA</text>
+  </g>
+
+  <!-- Specs Badges Footer Overlay -->
+  <g transform="translate(30, 520)">
+    <rect width="740" height="50" rx="14" fill="#ffffff" fill-opacity="0.9" stroke="#e2e8f0" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="20" y="31" fill="#0f172a" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Food Storage Container Set (12 pcs)</text>
+    <text x="720" y="31" text-anchor="end" fill="#0284c7" font-family="system-ui, sans-serif" font-size="14" font-weight="700">SKU: in-hk-003</text>
+  </g>
+</svg>

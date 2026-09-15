@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgStudioLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgMarble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bgDarkStudio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Material Gradients -->
+    <linearGradient id="nonStickGranite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="stainlessSteel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="75%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="copperBronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="woodGrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="dewaltYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="tealPine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d5c75"/>
+      <stop offset="100%" stop-color="#093d4e"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0284c7" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Surface Background -->
+  <rect width="800" height="600" fill="url(#bgStudioLight)"/>
+  <ellipse cx="400" cy="460" rx="360" ry="80" fill="#000000" fill-opacity="0.06" filter="url(#softShadow)"/>
+
+  <!-- Product Graphics Scene -->
+  
+    <g filter="url(#softShadow)" transform="translate(140, 100)">
+      <!-- Large Frying Pan -->
+      <g transform="translate(0, 140)">
+        <ellipse cx="260" cy="180" rx="200" ry="65" fill="url(#nonStickGranite)"/>
+        <path d="M 60 180 C 60 250 460 250 460 180 L 440 120 C 440 120 380 110 260 110 C 140 110 80 120 60 180 Z" fill="url(#nonStickGranite)"/>
+        <ellipse cx="260" cy="118" rx="180" ry="50" fill="#1e293b" stroke="#475569" stroke-width="4"/>
+        <rect x="440" y="130" width="160" height="28" rx="14" fill="url(#woodGrip)"/>
+      </g>
+      <!-- Stockpot with Glass Lid -->
+      <g transform="translate(180, 20)">
+        <path d="M 40 150 C 40 220 320 220 320 150 L 300 60 L 60 60 Z" fill="url(#nonStickGranite)"/>
+        <ellipse cx="180" cy="60" rx="120" ry="32" fill="url(#stainlessSteel)" fill-opacity="0.8"/>
+        <path d="M 70 60 C 70 10 290 10 290 60 Z" fill="#ffffff" fill-opacity="0.25" stroke="url(#stainlessSteel)" stroke-width="6"/>
+        <circle cx="180" cy="22" r="18" fill="url(#woodGrip)"/>
+        <rect x="0" y="90" width="40" height="16" rx="8" fill="url(#woodGrip)"/>
+        <rect x="320" y="90" width="40" height="16" rx="8" fill="url(#woodGrip)"/>
+      </g>
+      <!-- Small Saucepan -->
+      <g transform="translate(60, 160)">
+        <path d="M 20 90 C 20 140 180 140 180 90 L 170 40 L 30 40 Z" fill="url(#nonStickGranite)"/>
+        <ellipse cx="100" cy="40" rx="70" ry="20" fill="#334155"/>
+        <rect x="-70" y="50" width="100" height="20" rx="10" fill="url(#woodGrip)"/>
+      </g>
+    </g>
+  
+
+  <!-- Floating Badge Header -->
+  <g transform="translate(30, 30)">
+    <rect width="268" height="34" rx="17" fill="url(#tealPine)"/>
+    <text x="134" y="22" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="1">DIRECT SOURCING FROM CHINA</text>
+  </g>
+
+  <!-- Specs Badges Footer Overlay -->
+  <g transform="translate(30, 520)">
+    <rect width="740" height="50" rx="14" fill="#ffffff" fill-opacity="0.9" stroke="#e2e8f0" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="20" y="31" fill="#0f172a" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Non-stick Cookware Set (5 pcs)</text>
+    <text x="720" y="31" text-anchor="end" fill="#0284c7" font-family="system-ui, sans-serif" font-size="14" font-weight="700">SKU: in-hk-001</text>
+  </g>
+</svg>
